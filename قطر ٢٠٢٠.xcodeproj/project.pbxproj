@@ -9,19 +9,19 @@
 /* Begin PBXBuildFile section */
 		BD8AC43A1DF842B70067FEA9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD8AC4391DF842B70067FEA9 /* AppDelegate.swift */; };
 		BD8AC43C1DF842B70067FEA9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD8AC43B1DF842B70067FEA9 /* ViewController.swift */; };
-		BD8AC43F1DF842B70067FEA9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD8AC43D1DF842B70067FEA9 /* Main.storyboard */; };
 		BD8AC4411DF842B70067FEA9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD8AC4401DF842B70067FEA9 /* Assets.xcassets */; };
 		BD8AC4441DF842B70067FEA9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD8AC4421DF842B70067FEA9 /* LaunchScreen.storyboard */; };
+		BD8AC44C1DF8B3D30067FEA9 /* MoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD8AC44B1DF8B3D30067FEA9 /* MoreViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		BD8AC4361DF842B70067FEA9 /* قطر ٢٠٢٠.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "قطر ٢٠٢٠.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD8AC4391DF842B70067FEA9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BD8AC43B1DF842B70067FEA9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		BD8AC43E1DF842B70067FEA9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BD8AC4401DF842B70067FEA9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BD8AC4431DF842B70067FEA9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BD8AC4451DF842B70067FEA9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD8AC44B1DF8B3D30067FEA9 /* MoreViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MoreViewController.swift; path = ../MoreViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,7 +56,7 @@
 			children = (
 				BD8AC4391DF842B70067FEA9 /* AppDelegate.swift */,
 				BD8AC43B1DF842B70067FEA9 /* ViewController.swift */,
-				BD8AC43D1DF842B70067FEA9 /* Main.storyboard */,
+				BD8AC44B1DF8B3D30067FEA9 /* MoreViewController.swift */,
 				BD8AC4401DF842B70067FEA9 /* Assets.xcassets */,
 				BD8AC4421DF842B70067FEA9 /* LaunchScreen.storyboard */,
 				BD8AC4451DF842B70067FEA9 /* Info.plist */,
@@ -96,6 +96,7 @@
 				TargetAttributes = {
 					BD8AC4351DF842B70067FEA9 = {
 						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = VGM273UQ7T;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -125,7 +126,6 @@
 			files = (
 				BD8AC4441DF842B70067FEA9 /* LaunchScreen.storyboard in Resources */,
 				BD8AC4411DF842B70067FEA9 /* Assets.xcassets in Resources */,
-				BD8AC43F1DF842B70067FEA9 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,6 +136,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD8AC44C1DF8B3D30067FEA9 /* MoreViewController.swift in Sources */,
 				BD8AC43C1DF842B70067FEA9 /* ViewController.swift in Sources */,
 				BD8AC43A1DF842B70067FEA9 /* AppDelegate.swift in Sources */,
 			);
@@ -144,14 +145,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		BD8AC43D1DF842B70067FEA9 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				BD8AC43E1DF842B70067FEA9 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		BD8AC4421DF842B70067FEA9 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -203,7 +196,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -247,7 +240,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -260,6 +253,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = VGM273UQ7T;
 				INFOPLIST_FILE = "قطر ٢٠٢٠/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "qatar2020.com.--------";
@@ -272,6 +266,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = VGM273UQ7T;
 				INFOPLIST_FILE = "قطر ٢٠٢٠/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "qatar2020.com.--------";
